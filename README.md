@@ -28,3 +28,9 @@
 		- MySQL DB
 		- WebServer
 	- Flask 기본
+
+## Day 04
+- 라즈베리파이 학습
+	- PyQt5 설치
+	- QtDesigner 설치 및 실행 확인
+	- 하드웨어 제어(GPIO)
