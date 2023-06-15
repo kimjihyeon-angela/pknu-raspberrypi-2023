@@ -40,3 +40,19 @@
 - 라즈베리파이 학습
 	- 네트워크 셋팅 (VNC)
 	- RGB LED / Button 클릭
+
+## Day 06
+- 라즈베리파이 학습
+	- MQTT 통신
+		- MQTT Broker IP, port 설정, 계정설정(옵션)
+		- RPi <--> WPF
+		- RPi 온습도 센터값 MQTT 전송
+		- WPF 모터, LED 제어값 전송
+		- RPi Python paho-mqtt 패키지
+		- WPF C# M2Mqtt 패키지
+
+## Day 07
+- 라즈베리파이 학습
+	- 파이카메라 v1.3 ov5647
+	- OpenCV 4.7
+	- 카메라 연동 QrCode
