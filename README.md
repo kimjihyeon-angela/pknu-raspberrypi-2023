@@ -56,3 +56,12 @@
 	- 파이카메라 v1.3 ov5647
 	- OpenCV 4.7
 	- 카메라 연동 QrCode
+
+## Day 08
+- 가상환경 만들기
+ - python -m venv [가상환경 명]
+ - source ./bin/activate
+  - 가상환경에서 프로그램 실행하기
+ - deactivate
+  - 가상환경 종료하기
+ - 
