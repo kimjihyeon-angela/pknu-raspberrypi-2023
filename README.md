@@ -59,9 +59,14 @@
 
 ## Day 08
 - 가상환경 만들기
- - python -m venv [가상환경 명]
- - source ./bin/activate
-  - 가상환경에서 프로그램 실행하기
- - deactivate
-  - 가상환경 종료하기
- - 
+	- python -m venv [가상환경 명]
+	- source ./bin/activate
+		- 가상환경에서 프로그램 실행하기
+	- deactivate
+		- 가상환경 종료하기
+- 라즈베리파이 학습
+	- 7-세그먼트 16진수 표현하기
+
+ ## Day 09
+ - 라즈베리파이 학습
+ 	- 
