@@ -73,3 +73,14 @@
 - 라즈베리파이 학습
 	- pwm
 		- 펄스 폭 조절하여 전압을 제어하는 방법
+	- Interrupt
+ 		- 1. 핀설정
+     			- GPIO.add_event_detect(channel, GPIO.Mode)
+        		- channel : Pin number
+          		- GPIO.Mode : RISING or FALLING or BOTH   
+     		  2. 콜백 함수 설정
+         		- GPIO.add_event_callback(channel, function)
+           		- channel : Pin number
+             		- function : call back function 
+         	  3. 하나의 인터럽트 사용시
+               		- GPIO.add_event_detect(channel, GPIO.Mode, callback=my_callback)
