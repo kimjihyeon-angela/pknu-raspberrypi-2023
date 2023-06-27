@@ -38,6 +38,7 @@
 
 ## Day 05
 - 라즈베리파이 학습
+	- pip install RPi.GPIO
 	- 네트워크 셋팅 (VNC)
 	- RGB LED / Button 클릭
 
