@@ -87,3 +87,28 @@
    
 		  3. 하나의 인터럽트 사용시
                		- GPIO.add_event_detect(channel, GPIO.Mode, callback=my_callback)
+
+## Day 10
+- 라즈베리파이 학습
+	- 초음파센서
+		- 거리 측정
+		- 거리 측정 후 소리 울리기
+	- Flask
+		- Flask 설치 : pip install flask
+		- app = Flask(__name__)  : 객체생성
+		- @app.route('/')
+		  def hello_World():
+			return "Hello World"
+		  => 로컬호스트:포트번호 입력시 Hello World가 출력되는 웹페이지 만들어짐
+		- @app.route('/name')
+			def namefunc():
+				return "Hong kill-dong"
+		   => 로컬호스트:포트번호/name 입력시 Hong kill-dong 출력되는 웹페이지
+
+## Day 11
+- 라즈베리파이 학습
+	- Flask
+		- from flask import Flask, request, render_template
+			- render_template를 import 해야 templates 폴더에서 가져올 수 있음
+		- templates 폴더
+			- html 파일 저장하는 폴더
