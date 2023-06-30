@@ -112,3 +112,11 @@
 			- render_template를 import 해야 templates 폴더에서 가져올 수 있음
 		- templates 폴더
 			- html 파일 저장하는 폴더
+			
+## Day 12
+- 라즈베리파이 학습
+	- PyQt5 설치
+		- sudo apt-get install python3-pyqt5
+	- qttools 설치
+		- sudo apt-get install qttools5-dev-tools
+	
